@@ -1,8 +1,96 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>一鸣惊人</title>
-	</head>
-	<body>
-		<h2>测试</h2>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>一鸣惊人</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+    @font-face {font-family: 'webfont';
+  src: url('http://at.alicdn.com/t/s7u295j3l127f1or.eot'); /* IE9*/
+  src: url('http://at.alicdn.com/t/s7u295j3l127f1or.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('http://at.alicdn.com/t/s7u295j3l127f1or.woff') format('woff'), /* chrome、firefox */
+  url('http://at.alicdn.com/t/s7u295j3l127f1or.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('http://at.alicdn.com/t/s7u295j3l127f1or.svg#思源黑体-细') format('svg'); /* iOS 4.1- */
+}
+
+
+
+      .container {
+        width: 960px;
+      }
+      .header {
+        height: 120px;
+        padding:20px 0px;
+      }
+
+      .banner img {
+        width: 100%;
+        box-shadow: 0px 1px 5px 3px #EEEEEE;
+      }
+      .nav ul {
+        text-decoration: none;
+        height: 120px;
+      }
+      .nav ul li {
+        display: inline;
+        width: 15%;
+        margin: 4%;
+        font-size: 1.4rem;
+        line-height: 150px;
+      }
+      .content {
+        padding: 30px 0px;
+      }
+      .dot {
+        margin:5px 0px;
+        height: 0px;
+        border:1px solid #ccc;
+      }
+      .content p {
+        text-indent: 2rem;
+        font-family:'webfont','consolas';
+      }
+      .footer p{
+        font-size: 1.2rem;
+        font-family:monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row header">
+        <div class="col-md-3"><a href="#"><img src="images/logo.png" alt=""></a></div>
+        <div class="col-md-6 col-md-offset-3 nav">
+          <ul>
+            <li>Home</li>
+            <li>Model</li>
+            <li>Shows</li>
+            <li>Spread</li>
+            <li>Contacts</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row dot"></div>
+      <div class="content banner">
+        <img src="images/banner.png" alt="">
+      </div>
+      <div class="row content">
+        <div class="col-md-8">
+          <h4>王一鸣</h4>
+          <p>北京一鸣时尚培训机构由我国著名模特导师王一鸣先生创办。王老师从事模特培训已有26年之久。培养了中国武术顶尖模特······</p>
+          <p>王老师从事模特培训26年之久。培养了中国武术顶尖级模特。如：胡兵、王辉、陈娟红、于娜、谢东娜、刘多、李昕、单静雅等。
+            其学生几乎遍布中国各个顶尖模特公司。王老师的教学方法非常特别。
+            根据学员的条件制定不同的教学内容，提高学员的最大潜质，而不是采用目前最为普遍的模仿式教学。他向模特传授一种职业意识，靠技术启发，技术细节上的指点，让学员们找到一种万事俱备，水到渠成的感觉。在二十多年的教学过程中王老师一直坚持少而精的的方式在授课中都是5人小课化上课，以代研究生方式来授课。讲究最人性、最省时、最时效、最舒适的原则，得到广大学员及家长们的认同和赞扬，称之为“模特之父”。</p>
+        </div>
+        <div class="col-md-4">
+          这里是图片
+        </div>
+      </div>
+      <div class="row dot"></div>
+      <div class="row footer">
+        <div class="col-md-6"><p>Copyright@2012, YiMing Chao Mo Co.Ltd. All Rights Reserved.</p></div>
+        <div class="col-md-3 col-md-offset-3">YIMING FASHION</div>
+      </div>
+    </div>
+  </body>
 </html>
